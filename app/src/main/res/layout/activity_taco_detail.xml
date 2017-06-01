@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chris_guzman.taasty.TacoDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/saved_taco_img"
+                android:layout_width="256dp"
+                android:layout_height="256dp"
+                android:src="@drawable/taco" />
+
+            <TextView
+                android:padding="8dp"
+                android:id="@+id/saved_taco_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Awesome taco"
+                />
+
+            <TextView
+                android:id="@+id/saved_taco_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                tools:text="Traditional American Taco
+===================================
+
+This is the configuration that many American children are surprised to grow up and discover is not Mexican in the least.
+
+* [Ground Beef](/base_layers/ground_beef_traditional_us.md)
+* [Hard Corn Shells](/shells/hard_corn_traditional_us.md)
+* [Cheese](/mixins/cheese_traditional_us.md)
+* [Tomatoes](/mixins/tomatoes_traditional_us.md)
+* [Lettuce](/mixins/lettuce_traditional_us.md)
+* Hot Sauce/Salsa (store bought is fine; for fresh alternatives check out the [Condiments](/condiments) list)
+
+_Optional_
+
+* [Guacamole (Simple)](/condiments/guacamole_simple.md)
+* [Sour Cream](/condiments/sour_cream.md)
+* [Black Olives](/condiments/black_olives.md)
+
+1. Cook the ground beef; heat the shells; chop the tomatoes; shred the cheese and lettuce. Stick a spoon in the salsa.
+2. Once everything's on the table, anything goes. Tradition holds that the meat goes first and the cheese goes on the meat (so as to promote melting)." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
